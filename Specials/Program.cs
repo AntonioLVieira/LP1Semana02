@@ -6,15 +6,20 @@ namespace Specials
     {
         static void Main(string[] args)
         {
-            sbyte max_sb = sbyte.MaxValue;
-            sbyte min_sb = sbyte.MinValue;
-            double max_db = double.MaxValue;
-            double min_db = double.MinValue;
-            ulong max_ul = ulong.MaxValue;
-            ulong min_ul = ulong.MinValue;
-            Console.WriteLine("The max. Value for a sbyte is: " + max_sb + " and the min. Value is: " + min_sb);
-            Console.WriteLine("The max. Value for a double is: " + max_db + " and the min. Value is: " + min_db);
-            Console.WriteLine("The max. Value for a ulong is: " + max_ul + " and the min. Value is: " + min_ul);
+            double x = double.PositiveInfinity;
+            double y = double.NegativeInfinity;
+            float v = float.PositiveInfinity;
+            float z = float.NegativeInfinity;
+            double i = double.PositiveInfinity / double.PositiveInfinity;
+            float j = float.PositiveInfinity / float.PositiveInfinity;
+
+            Console.WriteLine("Special PositiveInfinity value of double is: " + x + " and the Special NegativeInfinity value of double is : " + y);
+            Console.WriteLine("Special PositiveInfinity value of float is: " + v + " and the Special NegativeInfinity value of float is : " + z);
+            Console.WriteLine("Special Value of double: " + i);
+            Console.WriteLine("Special Value of float: " + j);
+
+            
+
 
         }
     }
