@@ -15,7 +15,7 @@ namespace PerguntaValores
             raio = double.Parse(Console.ReadLine());
             Console.WriteLine("Qual é o raio do cilindro?");
             altura = double.Parse(Console.ReadLine());
-            volume = Math.PI * (raio * raio) * altura;
+            volume = Math.PI * Math.Pow(raio, 2) * altura;
             superficie = 2 * Math.PI * (raio + altura);
             Console.WriteLine("O volume do cilindro é: " + volume + "\nA área de superficie do cilindro é: " + superficie);
         }
