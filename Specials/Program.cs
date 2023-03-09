@@ -6,17 +6,9 @@ namespace Specials
     {
         static void Main(string[] args)
         {
-            int x = int.MaxValue;
-            double y = double.MaxValue;
-            float z = float.MaxValue;
-            Console.WriteLine("Overflow from int.MaxValue is: " + (int) (x + 1));
-            Console.WriteLine("Overflow from double.MaxValue is: " + (double) (y + 1) + " - The value stays the same!");
-            Console.WriteLine("Overflow from float.MaxValue is: " + (float) (z + 1) + " - The value stays the same!");
-            
-
-            
-
-
+            float y, z;
+            y = z = 5000000.0f;
+            Console.WriteLine(y == z + 0.2392849028423f);
         }
     }
 }
