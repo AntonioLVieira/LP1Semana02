@@ -6,8 +6,8 @@ namespace Specials
     {
         static void Main(string[] args)
         {
-            int x = short.MaxValue;
-            Console.WriteLine("Overflow from short.MaxValue is: " + (short) (x + 1));
+            int x = int.MaxValue;
+            Console.WriteLine("Overflow from int.MaxValue is: " + (int) (x + 1));
             
 
             
