@@ -6,10 +6,19 @@ namespace PerguntaValores
     {
         static void Main(string[] args)
         {
+            double raio;
+            double altura;
+            double volume;
+
             Console.WriteLine("Qual é a altura do cilindro?");
-            int x = int.Parse(Console.ReadLine());
+            raio = double.Parse(Console.ReadLine());
             Console.WriteLine("Qual é o raio do cilindro?");
-            int y = int.Parse(Console.ReadLine());
+            altura = double.Parse(Console.ReadLine());
+            volume = Math.PI * raio * raio * altura;
+            
+
+
+
             
 
         }
