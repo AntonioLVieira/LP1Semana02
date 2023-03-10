@@ -6,26 +6,28 @@ namespace ChatGPTMother
     {
         static void Main(string[] args)
         {
-            string x = Console.ReadLine();
+            
 
             while (true)
             {
                 Console.WriteLine("Ask me anything");
-                if (x == "What's you name")
+                string x = Console.ReadLine();
+
+                if (x == "What's your name?")
                 {
                     Console.WriteLine("My name is Oscar");
                 }
-                else if (x == "How old are you")
+                else if (x == "How old are you?")
                 {
                     Console.WriteLine("I'm 41 years old");
                 }
                 
-                else if (x == "What are you doing")
+                else if (x == "What are you doing?")
                 {
                     Console.WriteLine("I'm just watching you");
                 }
                 
-                else if (x == "What's you favourite food?")
+                else if (x == "What's your favorite food?")
                 {
                     Console.WriteLine("Chicken Tikka Masala");
                 }
@@ -37,7 +39,7 @@ namespace ChatGPTMother
 
                 else
                 {
-                    break;
+                    Console.WriteLine("I'm not that intelligent");
                 }
                 
 
