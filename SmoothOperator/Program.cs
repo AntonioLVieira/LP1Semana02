@@ -12,8 +12,12 @@ namespace SmoothOperator
             if (byte.TryParse(Console.ReadLine(), out byte n))
             {
                 // Realiza as operações e exibe os resultados
-                Console.WriteLine($"Resultado da operação de decremento de {n}: {--n}");
-                Console.WriteLine($"Resultado da operação de incremento de {n}: {++n}");
+                Console.WriteLine($"{--n}");
+                Console.WriteLine($"{++n}");
+                Console.WriteLine($"{n / 2}");
+                Console.WriteLine($"{n << 3}");
+                Console.WriteLine($"{n ^ 5}");
+                Console.WriteLine($"{n > 10}");
             }
             else
             {
