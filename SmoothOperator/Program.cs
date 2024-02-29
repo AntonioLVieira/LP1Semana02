@@ -8,10 +8,8 @@ namespace SmoothOperator
         {
             Console.Write("Insere número inteiro não-negativo: ");
 
-            // Recebe a entrada do usuário e converte para byte
             if (byte.TryParse(Console.ReadLine(), out byte n))
             {
-                // Realiza as operações e exibe os resultados
                 Console.WriteLine($"{--n}");
                 Console.WriteLine($"{++n}");
                 Console.WriteLine($"{n / 2}");
