@@ -22,6 +22,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"DateTime --> MinValue = {DateTime.MinValue}, MaxValue = {DateTime.MaxValue}");
             Console.WriteLine($"String --> There's no Min or MaxValue");
             Console.WriteLine($"Object --> There's no Min or MaxValue");
+            Console.WriteLine($"Float --> NegativeInfinity = {float.NegativeInfinity}, PositiveInfinity = {float.PositiveInfinity}, NaN = {float.NaN}");
+            Console.WriteLine($"Double --> NegativeInfinity = {double.NegativeInfinity}, PositiveInfinity = {double.PositiveInfinity}, NaN = {double.NaN}");
             Console.ReadLine();
         }
     }
